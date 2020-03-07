@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cookit</string>
+    <string name="desc_tab_icon">tab icon</string>
+    <string name="tab_home">主页</string>
+    <string name="desc_icon_add">icon add</string>
+    <string name="desc_icon_search">icon search</string>
+
+    <string-array name="tabTitle">
+        <item>主页</item>
+        <item>菜单</item>
+        <item>我的</item>
+    </string-array>
+</resources>

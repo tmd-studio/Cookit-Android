@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#9DA9A0</color>
+    <color name="colorPrimaryDark">#c3dbc5</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="tab_selected">#c3dbc5</color>
+    <color name="tab_unselected">#141301</color>
+
+    <color name="colorLine">#4D9E9D9D</color>
+    <color name="colorPage">@color/white</color>
+    <color name="colorPage2">#c3dbc5</color>
+    <color name="colorPage3">#FFF</color>
+
+    <color name="theme1">#545E75</color>
+    <color name="theme2">#304D6D</color>
+    <color name="theme3">#82A0BC</color>
+    <color name="theme4">#48A9A6</color>
+    <color name="theme5">#4281A4</color>
+
+</resources>

@@ -1,0 +1,3 @@
+rootProject.name='Cookit'
+include ':app'
+include ':core-lib'
