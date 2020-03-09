@@ -3,7 +3,7 @@ package com.tmd.cookit.ui.adapter
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.tmd.cookit.common.BaseFragment
+import com.tmd.cookit.common.base.BaseFragment
 
 class TabPagerAdapter(
     fm: FragmentManager,

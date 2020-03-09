@@ -1,4 +1,4 @@
-package com.tmd.cookit.repository
+package com.tmd.cookit.data.repository
 
 /**
  * 服务器数据仓库

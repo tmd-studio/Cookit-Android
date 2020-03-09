@@ -1,14 +1,15 @@
 package com.tmd.cookit.ui.activity
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import com.tmd.cookit.R
+import com.tmd.cookit.common.base.BaseActivity
+import com.tmd.cookit.constant.TabConstant
 import com.tmd.cookit.ui.adapter.TabPagerAdapter
 import com.tmd.cookit.ui.widget.CookTabManager
-import com.tmd.cookit.constant.TabConstant
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.nav_main.*
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,6 +18,15 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initViews() {
+        initToolBarEvent()
+        initTabs()
+    }
+
+    private fun initToolBarEvent() {
+        ivAdd.setOnClickListener { open(CookModeActivity::class.java) }
+    }
+
+    private fun initTabs() {
         mainViewPager.adapter = TabPagerAdapter(
             supportFragmentManager,
             TabConstant.fragmentList,

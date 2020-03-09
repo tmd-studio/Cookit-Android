@@ -4,6 +4,14 @@
     <string name="tab_home">主页</string>
     <string name="desc_icon_add">icon add</string>
     <string name="desc_icon_search">icon search</string>
+    <string name="full_mode">详细模式</string>
+    <string name="cancel">取消</string>
+    <string name="save_local">存草稿</string>
+    <string name="cookery_materials">用料</string>
+    <string name="cookery_step">步骤</string>
+    <string name="cookery_submit">提交</string>
+    <string name="create_cookery">创建菜谱</string>
+    <string name="upload_cover">上传封面</string>
 
     <string-array name="tabTitle">
         <item>主页</item>

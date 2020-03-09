@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/nav_cookery" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPage"
+        android:fitsSystemWindows="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.tmd.cookit.ui.widget.MsgImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/upload_cover"
+                app:ivBackgroundColor="@color/colorPlaceHolder" />
+
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@null"
+                android:gravity="center"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size24sp"
+                android:textStyle="bold"
+                tools:text="不好吃不要钱的番茄炒蛋" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/colorLine" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/cookery_materials"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/cookery_step"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtStep"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/input_background"
+                android:gravity="start"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/tvSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/colorMain"
+                android:gravity="center"
+                android:text="@string/cookery_submit"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

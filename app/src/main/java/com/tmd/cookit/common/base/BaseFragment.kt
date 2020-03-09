@@ -1,4 +1,4 @@
-package com.tmd.cookit.common
+package com.tmd.cookit.common.base
 
 import androidx.fragment.app.Fragment
 

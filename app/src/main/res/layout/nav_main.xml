@@ -31,14 +31,15 @@
         android:src="@mipmap/ic_add_white" />
 
     <ImageView
+        android:id="@+id/ivSearch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/ivAdd"
         android:contentDescription="@string/desc_icon_search"
-        android:src="@mipmap/ic_search_white"
         android:paddingStart="15dp"
         android:paddingEnd="7dp"
-        android:layout_centerVertical="true"
-        android:layout_toStartOf="@id/ivAdd"/>
+        android:src="@mipmap/ic_search_white" />
 
     <TextView
         android:id="@+id/toolBarLine"

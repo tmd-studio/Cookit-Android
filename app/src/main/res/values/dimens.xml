@@ -5,6 +5,8 @@
     <dimen name="size16sp">16sp</dimen>
     <dimen name="size18sp">18sp</dimen>
     <dimen name="size20sp">20sp</dimen>
+    <dimen name="size22sp">22sp</dimen>
+    <dimen name="size24sp">24sp</dimen>
 
 
 </resources>

@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.tmd.cookit.R
-import com.tmd.cookit.common.BaseFragment
+import com.tmd.cookit.common.base.BaseFragment
 
 class MineFragment : BaseFragment() {
 

@@ -11,12 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".ui.activity.splash.SplashActivity" >
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+        <activity android:name=".ui.activity.SplashActivity">
+            <!--            <intent-filter>-->
+            <!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!--                <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--            </intent-filter>-->
         </activity>
 
         <activity android:name=".ui.activity.MainActivity">
@@ -27,6 +27,14 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".ui.activity.CookModeActivity"
+            android:label="选择模式" />
+
+        <activity
+            android:name=".ui.activity.CookeryActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:label="制作详情" />
 
     </application>
 

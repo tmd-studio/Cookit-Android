@@ -5,6 +5,8 @@
     <color name="colorPrimaryDark">#c3dbc5</color>
     <color name="colorAccent">#03DAC5</color>
 
+    <color name="colorMain">#c3dbc5</color>
+
     <color name="tab_selected">#c3dbc5</color>
     <color name="tab_unselected">#141301</color>
 
@@ -18,5 +20,12 @@
     <color name="theme3">#82A0BC</color>
     <color name="theme4">#48A9A6</color>
     <color name="theme5">#4281A4</color>
+
+    <color name="colorModeA">#2F9C95</color>
+    <color name="colorModeB">#40C9A2</color>
+
+    <color name="colorPlaceHolder">#EFEFED</color>
+
+    <color name="colorText">#141301</color>
 
 </resources>

@@ -1,8 +1,8 @@
-package com.tmd.cookit.ui.activity.splash
+package com.tmd.cookit.ui.activity
 
 import android.os.Bundle
 import com.tmd.cookit.R
-import com.tmd.cookit.common.BaseActivity
+import com.tmd.cookit.common.base.BaseActivity
 
 class SplashActivity : BaseActivity() {
 
